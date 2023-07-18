@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage ('SCM') {
             steps {
-                git branch: 'master', url: 'https://github.com/vamsibyramala/dicet_tv.git'
+                git branch: 'master', url: 'https://github.com/kvchiru/dicet_tv.git'
             }
         }
         stage ('Build') {
